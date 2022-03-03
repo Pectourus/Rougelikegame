@@ -10,6 +10,6 @@ module com.example.rougelikegame {
     requires org.kordamp.bootstrapfx.core;
     requires eu.hansolo.tilesfx;
 
-    opens com.example.rougelikegame to javafx.fxml;
-    exports com.example.rougelikegame;
+    opens com.rougelikegame to javafx.fxml;
+    exports com.rougelikegame;
 }
